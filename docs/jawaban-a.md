@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bagian A
 
 ## 1. Analisis Kondisi  
