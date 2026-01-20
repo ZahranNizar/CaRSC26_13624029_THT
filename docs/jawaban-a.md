@@ -33,3 +33,13 @@ Berikut adalah tangkapan layar untuk pengerjaan subsoal ini :
 ### e. _Branches for A and B parts_ :
 Berikut adalah tangkapan layar untuk pengerjaan subsoal ini (20 Januari 2026) :
 ![Tangkapan layar A_2_e.png](images/A_2_e.png)
+
+## 4. Development Environment  
+### a. Instalasi _Packages_ :  
+Berikut adalah tangkapan layar bukti instalasi packages dalam WSL :
+![Tangkapan layar A_2_e.png](images/A_4/1.png)  
+![Tangkapan layar A_2_e.png](images/A_4/2.png)  
+
+## b. ROS2 Humble Installation :
+Berikut adalah tangkapan layar dari 2 terminal yang menjalankan sistem talkel-listener sederhana :  
+![Tangkapan layar A_2_e.png](images/A_4/3.png)  
