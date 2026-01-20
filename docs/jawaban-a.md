@@ -31,4 +31,5 @@ Berikut adalah tangkapan layar untuk pengerjaan subsoal ini :
 ![Tangkapan layar A_2_d.png](images/A_2_d.png)
 
 ### e. _Branches for A and B parts_ :
-On the way to screenshot the result
+Berikut adalah tangkapan layar untuk pengerjaan subsoal ini (20 Januari 2026) :
+![Tangkapan layar A_2_e.png](images/A_2_e.png)
