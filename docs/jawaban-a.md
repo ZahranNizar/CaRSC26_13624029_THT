@@ -34,6 +34,22 @@ Berikut adalah tangkapan layar untuk pengerjaan subsoal ini :
 Berikut adalah tangkapan layar untuk pengerjaan subsoal ini (20 Januari 2026) :
 ![Tangkapan layar A_2_e.png](images/A_2_e.png)
 
+## 3. Pengenalan Ground Control Station :  
+### a. Instalasi Mission Planner :
+![Tangkapan layar A_3_a.png](images/A_3/A_3_a.png)
+
+### b. Fitur Utama Mission Planner :  
+1. _Flight DATA Screen Overview_ : Menampilkan _Heads-up Display_ (HUD) dari _Mission Planner Ground Station_ serta menampilkan data telemetri yang dikirim oleh ArduPilot.
+2. _Flight PLAN Screen_ : Membuat sebuah misi yang akan dilaksanakan oleh UAV. Fitur ini dapat menciptakan secara otomatis beberapa hal seperti misi survei, _circular waypoints_, _simple grid_.
+3. _SETUP Screen_ : Fitur untuk mengatur dan mengkonfigurasi autopilot untuk UAV yang akan digunakan.
+4. _CONFIGuration and Tuning Screens_ : Fitur untuk mengatur/menyetel parameter kontrol sehingga UAV dapat bergerak sebagaimana mestinya.
+5. _SIMULATION Screen_ : Digunakan untuk melakukan simulasi secara virtual di Mission Planner tanpa harus meresikokan UAV untuk diuji coba.
+
+### c. Pemetaan dengan Mission Planner :  
+Berikut adalah setelan yang digunakanan untuk misi survei "Lapangan Bola Basket ITB" :  
+![Tangkapan layar A_3_c.png](images/A_3/A_3_c.png)  
+File ._waypoints_ ada [di sini](lampiran/Basketball_Survey.waypoints)
+
 ## 4. Development Environment  
 ### a. Instalasi _Packages_ :  
 Berikut adalah tangkapan layar bukti instalasi packages dalam WSL :
