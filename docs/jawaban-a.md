@@ -116,20 +116,25 @@ Berikut adalah diagram hubungan antarkomponen UAV di atas :
 ### d. Publikasi Ilmiah UAV :  
 Topik : [_UAV Path Planning Based on Improved A*and DWA Algorithms_](https://onlinelibrary.wiley.com/doi/epdf/10.1155/2021/4511252)  
 Artikel ini membahas seberapa efektif penggunaan algoritma A* dan DWA dalam UAV _path planning_. _Path planning_ dibagi menjadi _path planning_ global dan _path planning_ local. _Path planning_ global memanfaatkan peta lingkungan dengan hambatan yang diketahui dan menggunakan algoritma A*. _Path planning_ lokal memanfaatkan peta lingkungan dengan hambatan yang tidak diketahui dan menggunakan algoritma DWA. Kedua algoritma ini akan digunakan untuk melakukan _path planning_ dan membandingkan hasilnya dengan hasil yang diperoleh hanya dengan algoritma DWA.  
+
 Improvisasi pada algoritma A* dilakukan dengan meminimalisasi sudut besar (di titik belok) dan menetapkan jarak aman UAV dengan hambatan yang ada. Detail dari model ini dijelaskan lebih lanjut di dalam artikel. Algoritma DWA juga diimprovisasi dengan menambahkan _adaptive weight_ dan _safety threshold_ ke dalam algoritma tersebut. Kedua algoritma yang telah diimprovisasi kemudian digabungkan dan akan digunakan untuk mensimulasikan _path planning_ UAV.  
+
 Artikel di atas juga menyediakan _test case_ untuk algoritma A* dan DWA. Hasil simulasi menunjukkan bahwa algoritma A* dan DWA mengurangi panjang lintasan sebesar 2,4% dibandingkan lintasan yang dihasilkan oleh algoritma DWA. Selain itu, algoritma A* dan DWA memiliki waktu terbang 35,7% lebih cepat dibandingkan waktu terbang oleh algoritma DWA.
 
 ## 6. Algoritma  
 ### a. A* dan D*  
-#### A*  
+#### Algoritma A*  
 A* adalah salah satu algoritma popular yang digunakan untuk mencari lintasan terpendek antara dua titik. Algoritma ini mengevaluasi nilai _cost_ dari setiap jalur dengan dua faktor utama yaitu :  
 - $g(n)$ : Biaya / _cost_ dari node awal menuju node saat ini.  
-- $h(n)$ : Estimasi heuristik untuk _cost_ dari node saat ini menuju node akhir.  
+- $h(n)$ : Estimasi heuristik untuk _cost_ dari node saat ini menuju node akhir.
+
 Algoritma A* mencari sebuah lintasan dengan nilai total minimum dari kedua faktor tersebut :  
 $f(n) = g(n) + h(n)$  
+
 Algoritma A* akan menemukan lintasan terpendek untuk pergi ke lokasi akhir dengan waktu yang secara umum lebih cepat dibandingkan algoritma _finding path_ lainnya. Akan tetapi, algoritma A* tidak dapat digunakan dalam lingkungan yang dinamis dimana hambatan / _obstacle_ dapat berubah-ubah setiap saat. Oleh karena itu, algoritma A* lebih cocok untuk digunakan dalam _mission planning_ awal dari UAV.
-#### D*
+#### Algoritma D*
 D* adalah singkatan dari _Dynamic_ A*. Sesuai namanya, algoritma D* adalah algoritma yang digunakan untuk mencari lintasan terpendek di dalam lingkungan yang dinamis, dimana hambatan dapat berubah-ubah setiap saat. Cara kerja algoritma D* hampir mirip dengan A* (dilakukan secara _reverse_), akan tetapi D* selalu melakukan update terhadap kondisi lingkungan. Apabila terdapat sebuah hambatan baru, algoritma ini akan mengevaluasi ulang _cost_ dari lintasan awal serta menemukan lintasan baru yang lebih baik dibandingkan lintasan sebelumnya. Oleh karena itu, algoritma D* lebih cocok untuk digunakan dalam lingkungan yang dinamis, yaitu ketika UAV sedang melaksanakan misinya.  
+
 **Source** : [link-1](https://engineering.miko.ai/path-planning-algorithms-a-comparative-study-between-a-and-d-lite-01133b28b8b4) [link-2](https://dibyendu-biswas.medium.com/d-d-lite-lpa-e7483779a7ca)  
 ### b. Proportional-Integral-Derivative (PID)  
 Kontrol PID adalah mekanisme kendali berbasis umpan balik yang sering digunakan untuk mengatur mesin dan proses yang membutuhkan kendali dan penyesuaian otomatis secara terus menerus. Kontrol PID akan membandingkan nilai target yang diinginkan (_setpoint_/SP) dengan nilai sebenarnya dari sistem (_process variable_/PV). Perbedaan kedua nilai ini disebut sebagai _error value_ ($e(t)$)  
@@ -143,6 +148,7 @@ Sesuai namanya, PID terdiri dari tiga aksi yaitu _proportional_, _integral_, dan
  3. _Derivative Action_
   - Memprediksi error di masa depan dengan mengamati laju error saat ini.
   - Mengurangi osilasi dan mempercepat waktu respon untuk memperbaiki error.  
+
 **Source** : [link-1](https://www.geeksforgeeks.org/electronics-engineering/proportional-integral-derivative-controller-in-control-system/) [link-2](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller)  
 ### c. _Kalman Filter_ dan _Extended Kalman Filter_ (EKF)
 #### _Kalman Filter_  
@@ -150,7 +156,10 @@ Algoritma _Kalman Filter_ adalah algoritma yang digunakan untuk memprediksi kead
 Model prediksi dari _kalman filter_ merupakan sistem persamaan linear yang dinyatakan sebagai berikut :
 - $x' = F * x + u$ : Memprediksi keadaan objek dengan kontrol input dan keadaan sekarang
 - $P' = F * P * F^T$ : Propagasi ketidakpastian melalui model.  
+
 **Souce** : [link-1](https://medium.com/@sophiezhao_2990/kalman-filter-explained-simply-2b5672429205)
 #### _Extended Kalman Filter_
 Berbeda dengan algoritma _kalman filter_ yang memprediksi keadaan suatu objek yang linear, algoritma _extended kalman filter_ digunakan untuk memprediksi keadaan suatu objek yang nonlinear. Algoritma ini akan melakukan aproksimasi linear (_Jacobian Matrix_) dari keadaan suatu objek, kemudian memprediksi keadaan selanjutnya dari objek tersebut menggunakan _kalman filter_.  
 Model matematika untuk algoritma _extended kalman filter_ cukup kompleks. Karena Si Author malas untuk membahas model matematika di sini, penjelasan matematikanya ada [di sini](https://stonesoup.readthedocs.io/en/v0.1b3/auto_tutorials/02_ExtendedKalmanFilterTutorial.html#nearly-constant-velocity-example)
+
+**Source** : [link-1](https://medium.com/@sophiezhao_2990/kalman-filter-explained-simply-2b5672429205) [link-2](https://www.ultralytics.com/glossary/extended-kalman-filter-ekf)
