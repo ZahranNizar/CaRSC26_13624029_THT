@@ -21,18 +21,18 @@ Done at 10:01 WIB, 20th January 2026
 **Source** : [geeksforgeeks.org](https://www.geeksforgeeks.org/git/useful-git-commands-and-basic-concepts/)
 
 ### b. _GitHub and VSCode setup_ :  
-![Tangkapan layar A_2_b.png](images/A_2_b.png)
+![Tangkapan layar A_2_b.png](images/A_2/A_2_b.png)
 
 ### c. _Git Education_ :  
-Jumlah file tangkapan layar terlalu banyak, silahkan lihat hasil tangkapan layar [disini](images/A_2_c/)
+Jumlah file tangkapan layar terlalu banyak, silahkan lihat hasil tangkapan layar [disini](images/A_2/A_2_c/)
 
 ### d. _Git SSH Security_ :  
 Berikut adalah tangkapan layar untuk pengerjaan subsoal ini :  
-![Tangkapan layar A_2_d.png](images/A_2_d.png)
+![Tangkapan layar A_2_d.png](images/A_2/A_2_d.png)
 
 ### e. _Branches for A and B parts_ :
 Berikut adalah tangkapan layar untuk pengerjaan subsoal ini (20 Januari 2026) :
-![Tangkapan layar A_2_e.png](images/A_2_e.png)
+![Tangkapan layar A_2_e.png](images/A_2/A_2_e.png)
 
 ## 3. Pengenalan Ground Control Station :  
 ### a. Instalasi Mission Planner :
