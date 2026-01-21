@@ -45,10 +45,14 @@ Berikut adalah tangkapan layar untuk pengerjaan subsoal ini (20 Januari 2026) :
 4. _CONFIGuration and Tuning Screens_ : Fitur untuk mengatur/menyetel parameter kontrol sehingga UAV dapat bergerak sebagaimana mestinya.
 5. _SIMULATION Screen_ : Digunakan untuk melakukan simulasi secara virtual di Mission Planner tanpa harus meresikokan UAV untuk diuji coba.
 
+**Source** : [ardupilot.org](https://ardupilot.org/planner/docs/mission-planner-features.html#)
+
 ### c. Pemetaan dengan Mission Planner :  
 Berikut adalah setelan yang digunakanan untuk misi survei "Lapangan Bola Basket ITB" :  
 ![Tangkapan layar A_3_c.png](images/A_3/A_3_c.png)  
 File ._waypoints_ ada [di sini](lampiran/Basketball_Survey.waypoints)
+
+**Source** : [youtube.com](https://www.youtube.com/watch?v=i0oL5wek-c4)
 
 ## 4. Development Environment  
 ### a. Instalasi _Packages_ :  
