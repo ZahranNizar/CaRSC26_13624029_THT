@@ -21,22 +21,22 @@ Done at 10:01 WIB, 20th January 2026
 **Source** : [geeksforgeeks.org](https://www.geeksforgeeks.org/git/useful-git-commands-and-basic-concepts/)
 
 ### b. _GitHub and VSCode setup_ :  
-![Tangkapan layar A_2_b.png](images/A_2/A_2_b.png)
+![Tangkapan layar A_2_b.png](../images/A_2/A_2_b.png)
 
 ### c. _Git Education_ :  
-Jumlah file tangkapan layar terlalu banyak, silahkan lihat hasil tangkapan layar [disini](images/A_2/A_2_c/)
+Jumlah file tangkapan layar terlalu banyak, silahkan lihat hasil tangkapan layar [disini](../images/A_2/A_2_c/)
 
 ### d. _Git SSH Security_ :  
 Berikut adalah tangkapan layar untuk pengerjaan subsoal ini :  
-![Tangkapan layar A_2_d.png](images/A_2/A_2_d.png)
+![Tangkapan layar A_2_d.png](../images/A_2/A_2_d.png)
 
 ### e. _Branches for A and B parts_ :
 Berikut adalah tangkapan layar untuk pengerjaan subsoal ini (20 Januari 2026) :
-![Tangkapan layar A_2_e.png](images/A_2/A_2_e.png)
+![Tangkapan layar A_2_e.png](../images/A_2/A_2_e.png)
 
 ## 3. Pengenalan Ground Control Station :  
 ### a. Instalasi Mission Planner :
-![Tangkapan layar A_3_a.png](images/A_3/A_3_a.png)
+![Tangkapan layar A_3_a.png](../images/A_3/A_3_a.png)
 
 ### b. Fitur Utama Mission Planner :  
 1. _Flight DATA Screen Overview_ : Menampilkan _Heads-up Display_ (HUD) dari _Mission Planner Ground Station_ serta menampilkan data telemetri yang dikirim oleh ArduPilot.
@@ -49,7 +49,7 @@ Berikut adalah tangkapan layar untuk pengerjaan subsoal ini (20 Januari 2026) :
 
 ### c. Pemetaan dengan Mission Planner :  
 Berikut adalah setelan yang digunakanan untuk misi survei "Lapangan Bola Basket ITB" :  
-![Tangkapan layar A_3_c.png](images/A_3/A_3_c.png)  
+![Tangkapan layar A_3_c.png](../images/A_3/A_3_c.png)  
 File ._waypoints_ ada [di sini](lampiran/Basketball_Survey.waypoints)
 
 **Source** : [youtube.com](https://www.youtube.com/watch?v=i0oL5wek-c4)
@@ -57,12 +57,12 @@ File ._waypoints_ ada [di sini](lampiran/Basketball_Survey.waypoints)
 ## 4. Development Environment  
 ### a. Instalasi _Packages_ :  
 Berikut adalah tangkapan layar bukti instalasi packages dalam WSL :
-![Tangkapan layar A_2_e.png](images/A_4/1.png)  
-![Tangkapan layar A_2_e.png](images/A_4/2.png)  
+![Tangkapan layar A_2_e.png](../images/A_4/1.png)  
+![Tangkapan layar A_2_e.png](../images/A_4/2.png)  
 
 ## b. ROS2 Humble Installation :
 Berikut adalah tangkapan layar dari 2 terminal yang menjalankan sistem talkel-listener sederhana :  
-![Tangkapan layar A_2_e.png](images/A_4/3.png)  
+![Tangkapan layar A_2_e.png](../images/A_4/3.png)  
 
 ## 5. Dasar-Dasar UAV  
 ### a. Perbedaan VTOL, HTOL, dan Hybrid :
@@ -109,7 +109,7 @@ Merupakan otak dari UAV. Sistem ini terdiri dari komponen elektronik seperti ESC
 Sistem yang memungkinkan UAV untuk mentransmisikan dan menerima data dengan _Ground Control Station_.  
 
 Berikut adalah diagram hubungan antarkomponen UAV di atas :  
-![Diagram hubungan antarkomponen UAV](images/A_5/A_5_c.png)
+![Diagram hubungan antarkomponen UAV](../images/A_5/A_5_c.png)
 
 **Source** : [Publikasi](https://www.researchgate.net/publication/342823335_Air-Ground_Integrated_Mobile_Edge_Networks_A_Survey)
 
