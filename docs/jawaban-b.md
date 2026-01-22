@@ -64,3 +64,11 @@
  b. Berikut adalah [kode](../src/b/daspro/multithread.cpp) untuk melakukan 2 _threads_.
  ![Output kode setelah lebih dari 10 detik](../images/3_b.png)
  
+ ## Jurusan Control and Perception (ConCept)
+ ### 1. Konsep dasar ROS :
+  - _Nodes_ : Sebuah file yang dapat dieksekusi di dalam paket ROS. _Nodes_ dapat berkomunikasi dengan _nodes_ lain dengan berbagai cara menggunakan ROS _client library_. [**Source**](https://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
+  - _Topics_ : Pesan yang dikirim dari/menuju _node_ melalui sistem _publish-subscribe_. Nama yang digunakan untuk mengidentifikasi pesan tersebut disebut _topic_. [**Source**](https://wiki.ros.org/ROS/Concepts)
+  - _Services_ : Cara untuk mengirimkan data antar _node_ di ROS. _Services_ memungkinkan _node_ untuk memanggil suatu fungsi yang dieksekusikan di _node_ lain. [**Source**](https://www.oreilly.com/library/view/programming-robots-with/9781449325480/ch04.html)
+  - _Parameters_ : Digunakan untuk mengkonfigurasikan _node_ saat _startup_, tanpa mengubah kode. Parameter diakses berdasarkan nama _node_, _namespace node_, nama parameter, dan _namespace_ parameter. [**Source**](https://docs.ros.org/en/rolling/Concepts/Basic/About-Parameters.html)
+  - _Actions_ : Salah satu jenis komunikasi di ROS2 dan ditujukan untuk pengerjaan tugas jangka lama. _Actions_ dibuat berdasarkan _topics_ dan _services_ sehingga memiliki fungsi yang mirip dengan _services_, kecuali _Actions_ dapat dihentikan ketika sedang dieksekusi.
+  
