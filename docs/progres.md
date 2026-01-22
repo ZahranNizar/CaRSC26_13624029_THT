@@ -33,3 +33,11 @@ Walaupun sering diketik, saya belum memahami sepenuhnya fungsi dari sintaks yang
 ## Mengerjakan tugas B.3 DasPro
 Tidak terlalu familiar dengan konsep ini karena pengalaman saya dalam koding sejauh ini tidak pernah mengharuskan saya untuk melakukan _multithreading_. Meskipun begitu tidak ada kesulitan dalam melakukan koding tugas ini.
 
+## Mengerjakan tugas B.1 ConCept
+Cukup familiar dengan beberapa istilah, sehingga tidak ada masalah pengerjaan
+
+## Mengerjakan tugas B.2 ConCept
+Sudah pernah mengerjakan proyek yang serupa sebelumnya, kode publisher dan subscriber diunduh dari website ros2. Dikarenakan keterbatasan waktu dan kemalasan saya, saya meminta bantuan ChatGPT untuk mengkonversi format waktu menjadi ISO 8601.
+
+## Mengerjakan tugas B.5 ConCept
+Kenapa semuanya harus pake C++ dah T-T. Sudah memiliki sedikit pengalaman dalam menggunakan OpenCV tetapi hanya di Python.
