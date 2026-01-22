@@ -2,6 +2,10 @@
 
 ## Dasar Pemrograman
 
+## 1. OOP _Programming_
+ b. Berikut adalah [kode](../src/b/daspro/telemetry_oop.cpp) untuk penyelesaian tugas ini.  
+ Terima kasih kepada fitur AI dari VSC yang telah membantu mengetik kode. Design pattern yang digunakan saat ini adalah _Strategy Pattern_.
+
 ## 2. Sintaks C++
  a. Perbedaan <code>#include &ltfile_name&gt</code> dan <code>#include "file_name"</code>  
   - <code>#include &ltfile_name&gt</code> : Preprosesor melakukan pencarian file header di direktori yang telah disiapkan oleh kompiler/IDE. File header yang dicari biasanya berasal dari _standard library_ C.
