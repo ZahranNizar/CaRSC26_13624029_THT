@@ -1,0 +1,4 @@
+source;share/yapping/local_setup.bash
+source;share/yapping/local_setup.dsv
+source;share/yapping/local_setup.sh
+source;share/yapping/local_setup.zsh

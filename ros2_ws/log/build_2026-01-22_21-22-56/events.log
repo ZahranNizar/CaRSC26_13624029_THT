@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000898] (yapping) JobQueued: {'identifier': 'yapping', 'dependencies': OrderedDict()}
+[0.000978] (yapping) JobStarted: {'identifier': 'yapping'}
+[0.015650] (yapping) JobProgress: {'identifier': 'yapping', 'progress': 'cmake'}
+[0.017678] (yapping) Command: {'cmd': ['/usr/bin/cmake', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/src/yapping', '-DCMAKE_INSTALL_PREFIX=/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping'], 'cwd': '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zahran'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/zahran'), ('OLDPWD', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/src/yapping/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zahran'), ('NAME', 'LAPTOP-II4GLKM0'), ('WSL_INTEROP', '/run/WSL/76767_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Lenovo/AppData/Local/Python/bin:/mnt/c/msys64/mingw64/bin:/snap/bin'), ('WT_SESSION', 'c7e623bb-2f3f-4647-83e7-6d8dc570ae08'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.100486] (-) TimerEvent: {}
+[0.185657] (yapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200686] (-) TimerEvent: {}
+[0.301049] (-) TimerEvent: {}
+[0.401976] (-) TimerEvent: {}
+[0.415754] (yapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.503135] (-) TimerEvent: {}
+[0.526355] (yapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.603518] (-) TimerEvent: {}
+[0.624207] (yapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.628536] (yapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.629202] (yapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.629898] (yapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.633009] (yapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.703715] (-) TimerEvent: {}
+[0.733976] (yapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.739177] (yapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.739481] (yapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.739707] (yapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.755535] (yapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.804402] (-) TimerEvent: {}
+[0.874267] (yapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.904939] (-) TimerEvent: {}
+[0.958590] (yapping) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.005114] (-) TimerEvent: {}
+[1.054993] (yapping) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.060408] (yapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.069562] (yapping) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.083807] (yapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100028] (yapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.105248] (-) TimerEvent: {}
+[1.146194] (yapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.149511] (yapping) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.206090] (-) TimerEvent: {}
+[1.306678] (-) TimerEvent: {}
+[1.408312] (-) TimerEvent: {}
+[1.509482] (-) TimerEvent: {}
+[1.610756] (-) TimerEvent: {}
+[1.628219] (yapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.710904] (-) TimerEvent: {}
+[1.811265] (-) TimerEvent: {}
+[1.911710] (-) TimerEvent: {}
+[2.012164] (-) TimerEvent: {}
+[2.083768] (yapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.112368] (-) TimerEvent: {}
+[2.212742] (-) TimerEvent: {}
+[2.313089] (-) TimerEvent: {}
+[2.413494] (-) TimerEvent: {}
+[2.513877] (-) TimerEvent: {}
+[2.614268] (-) TimerEvent: {}
+[2.714676] (-) TimerEvent: {}
+[2.815135] (-) TimerEvent: {}
+[2.911823] (yapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.915253] (-) TimerEvent: {}
+[2.929977] (yapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.015445] (-) TimerEvent: {}
+[3.033348] (yapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.033709] (yapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.115629] (-) TimerEvent: {}
+[3.120354] (yapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.121247] (yapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.171254] (yapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.216365] (-) TimerEvent: {}
+[3.236652] (yapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.236955] (yapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.237035] (yapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.238075] (yapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.239667] (yapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.239749] (yapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.240539] (yapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.242475] (yapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.257530] (yapping) StdoutLine: {'line': b'-- Generating done\n'}
+[3.261354] (yapping) StdoutLine: {'line': b'-- Build files have been written to: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping\n'}
+[3.269516] (yapping) CommandEnded: {'returncode': 0}
+[3.271212] (yapping) JobProgress: {'identifier': 'yapping', 'progress': 'build'}
+[3.271488] (yapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping', '--', '-j16', '-l16'], 'cwd': '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zahran'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/zahran'), ('OLDPWD', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/src/yapping/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zahran'), ('NAME', 'LAPTOP-II4GLKM0'), ('WSL_INTEROP', '/run/WSL/76767_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Lenovo/AppData/Local/Python/bin:/mnt/c/msys64/mingw64/bin:/snap/bin'), ('WT_SESSION', 'c7e623bb-2f3f-4647-83e7-6d8dc570ae08'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[3.315758] (yapping) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/clock.cpp.o\x1b[0m\n'}
+[3.316139] (yapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/watch.cpp.o\x1b[0m\n'}
+[3.316463] (-) TimerEvent: {}
+[3.417218] (-) TimerEvent: {}
+[3.517578] (-) TimerEvent: {}
+[3.618241] (-) TimerEvent: {}
+[3.719308] (-) TimerEvent: {}
+[3.821064] (-) TimerEvent: {}
+[3.922861] (-) TimerEvent: {}
+[4.024608] (-) TimerEvent: {}
+[4.126546] (-) TimerEvent: {}
+[4.228639] (-) TimerEvent: {}
+[4.330554] (-) TimerEvent: {}
+[4.432290] (-) TimerEvent: {}
+[4.534032] (-) TimerEvent: {}
+[4.635819] (-) TimerEvent: {}
+[4.737560] (-) TimerEvent: {}
+[4.839284] (-) TimerEvent: {}
+[4.941055] (-) TimerEvent: {}
+[5.041608] (-) TimerEvent: {}
+[5.142749] (-) TimerEvent: {}
+[5.244498] (-) TimerEvent: {}
+[5.346287] (-) TimerEvent: {}
+[5.448052] (-) TimerEvent: {}
+[5.549827] (-) TimerEvent: {}
+[5.651571] (-) TimerEvent: {}
+[5.753344] (-) TimerEvent: {}
+[5.855077] (-) TimerEvent: {}
+[5.956896] (-) TimerEvent: {}
+[6.058685] (-) TimerEvent: {}
+[6.160504] (-) TimerEvent: {}
+[6.262287] (-) TimerEvent: {}
+[6.364151] (-) TimerEvent: {}
+[6.465026] (-) TimerEvent: {}
+[6.566802] (-) TimerEvent: {}
+[6.668632] (-) TimerEvent: {}
+[6.770430] (-) TimerEvent: {}
+[6.872208] (-) TimerEvent: {}
+[6.973987] (-) TimerEvent: {}
+[7.075767] (-) TimerEvent: {}
+[7.176346] (yapping) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[7.176638] (-) TimerEvent: {}
+[7.277781] (-) TimerEvent: {}
+[7.379582] (-) TimerEvent: {}
+[7.397754] (yapping) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[7.480207] (-) TimerEvent: {}
+[7.581971] (-) TimerEvent: {}
+[7.683748] (-) TimerEvent: {}
+[7.785563] (-) TimerEvent: {}
+[7.887365] (-) TimerEvent: {}
+[7.988731] (-) TimerEvent: {}
+[8.090085] (-) TimerEvent: {}
+[8.191849] (-) TimerEvent: {}
+[8.293606] (-) TimerEvent: {}
+[8.395361] (-) TimerEvent: {}
+[8.497092] (-) TimerEvent: {}
+[8.598826] (-) TimerEvent: {}
+[8.700565] (-) TimerEvent: {}
+[8.801190] (-) TimerEvent: {}
+[8.901595] (-) TimerEvent: {}
+[9.003307] (-) TimerEvent: {}
+[9.105039] (-) TimerEvent: {}
+[9.206702] (-) TimerEvent: {}
+[9.308466] (-) TimerEvent: {}
+[9.410288] (-) TimerEvent: {}
+[9.511749] (-) TimerEvent: {}
+[9.613494] (-) TimerEvent: {}
+[9.714499] (-) TimerEvent: {}
+[9.816258] (-) TimerEvent: {}
+[9.918005] (-) TimerEvent: {}
+[10.014169] (yapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[10.018120] (-) TimerEvent: {}
+[10.118936] (-) TimerEvent: {}
+[10.220760] (-) TimerEvent: {}
+[10.306100] (yapping) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[10.319383] (yapping) CommandEnded: {'returncode': 0}
+[10.320133] (yapping) JobProgress: {'identifier': 'yapping', 'progress': 'install'}
+[10.320817] (-) TimerEvent: {}
+[10.330118] (yapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping'], 'cwd': '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zahran'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/zahran'), ('OLDPWD', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/src/yapping/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zahran'), ('NAME', 'LAPTOP-II4GLKM0'), ('WSL_INTEROP', '/run/WSL/76767_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Lenovo/AppData/Local/Python/bin:/mnt/c/msys64/mingw64/bin:/snap/bin'), ('WT_SESSION', 'c7e623bb-2f3f-4647-83e7-6d8dc570ae08'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[10.339506] (yapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.341374] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/lib/yapping/talker\n'}
+[10.343014] (yapping) StdoutLine: {'line': b'-- Set runtime path of "/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/lib/yapping/talker" to ""\n'}
+[10.343092] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/lib/yapping/listener\n'}
+[10.347823] (yapping) StdoutLine: {'line': b'-- Set runtime path of "/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/lib/yapping/listener" to ""\n'}
+[10.349276] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/ament_index/resource_index/package_run_dependencies/yapping\n'}
+[10.349771] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/ament_index/resource_index/parent_prefix_path/yapping\n'}
+[10.350602] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/environment/ament_prefix_path.sh\n'}
+[10.350861] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/environment/ament_prefix_path.dsv\n'}
+[10.351081] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/environment/path.sh\n'}
+[10.351298] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/environment/path.dsv\n'}
+[10.351495] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/local_setup.bash\n'}
+[10.351730] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/local_setup.sh\n'}
+[10.351891] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/local_setup.zsh\n'}
+[10.352053] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/local_setup.dsv\n'}
+[10.352186] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/package.dsv\n'}
+[10.352637] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/ament_index/resource_index/packages/yapping\n'}
+[10.353208] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/cmake/yappingConfig.cmake\n'}
+[10.353411] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/cmake/yappingConfig-version.cmake\n'}
+[10.353588] (yapping) StdoutLine: {'line': b'-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/package.xml\n'}
+[10.355737] (yapping) CommandEnded: {'returncode': 0}
+[10.374600] (yapping) JobEnded: {'identifier': 'yapping', 'rc': 0}
+[10.375622] (-) EventReactorShutdown: {}
