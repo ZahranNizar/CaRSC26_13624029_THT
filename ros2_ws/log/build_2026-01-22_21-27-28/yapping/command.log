@@ -1,0 +1,4 @@
+Invoking command in '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping': /usr/bin/cmake --build /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping -- -j16 -l16
+Invoked command in '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping' returned '0': /usr/bin/cmake --build /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping -- -j16 -l16
+Invoking command in '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping': /usr/bin/cmake --install /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping
+Invoked command in '/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping' returned '0': /usr/bin/cmake --install /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/build/yapping

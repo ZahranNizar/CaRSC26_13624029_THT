@@ -1,0 +1,8 @@
+source;share/yapping/hook/cmake_prefix_path.ps1
+source;share/yapping/hook/cmake_prefix_path.dsv
+source;share/yapping/hook/cmake_prefix_path.sh
+source;share/yapping/local_setup.bash
+source;share/yapping/local_setup.dsv
+source;share/yapping/local_setup.ps1
+source;share/yapping/local_setup.sh
+source;share/yapping/local_setup.zsh

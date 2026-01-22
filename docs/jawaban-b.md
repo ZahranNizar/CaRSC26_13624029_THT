@@ -71,4 +71,11 @@
   - _Services_ : Cara untuk mengirimkan data antar _node_ di ROS. _Services_ memungkinkan _node_ untuk memanggil suatu fungsi yang dieksekusikan di _node_ lain. [**Source**](https://www.oreilly.com/library/view/programming-robots-with/9781449325480/ch04.html)
   - _Parameters_ : Digunakan untuk mengkonfigurasikan _node_ saat _startup_, tanpa mengubah kode. Parameter diakses berdasarkan nama _node_, _namespace node_, nama parameter, dan _namespace_ parameter. [**Source**](https://docs.ros.org/en/rolling/Concepts/Basic/About-Parameters.html)
   - _Actions_ : Salah satu jenis komunikasi di ROS2 dan ditujukan untuk pengerjaan tugas jangka lama. _Actions_ dibuat berdasarkan _topics_ dan _services_ sehingga memiliki fungsi yang mirip dengan _services_, kecuali _Actions_ dapat dihentikan ketika sedang dieksekusi.
-  
+
+ ### 2. Sistem publisher-subscriber C++ :
+ ![Sistem publisher-subscriber](../images/B_ConCept/2.png)
+
+ ### 5. OpenCV :  
+ Berikut adalah [kode](../src/b/concept/opencv_test.cpp) yang digunakan untuk menghasilkan gambar di bawah :  
+ Thanks to ChatGPT atas bantuan _Vocoded image_-nya.  
+ ![Gambar OpenCV](../images/B_ConCept/5.png)

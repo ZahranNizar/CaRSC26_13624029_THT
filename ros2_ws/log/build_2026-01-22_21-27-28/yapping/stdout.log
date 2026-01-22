@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/watch.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/clock.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/lib/yapping/talker
+-- Set runtime path of "/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/lib/yapping/talker" to ""
+-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/lib/yapping/listener
+-- Set runtime path of "/home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/lib/yapping/listener" to ""
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/ament_index/resource_index/package_run_dependencies/yapping
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/ament_index/resource_index/parent_prefix_path/yapping
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/environment/path.sh
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/environment/path.dsv
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/local_setup.bash
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/local_setup.sh
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/local_setup.zsh
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/local_setup.dsv
+-- Installing: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/package.dsv
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/ament_index/resource_index/packages/yapping
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/cmake/yappingConfig.cmake
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/cmake/yappingConfig-version.cmake
+-- Up-to-date: /home/zahran/GitHub/CaRSC26_13624029_THT/ros2_ws/install/yapping/share/yapping/package.xml
